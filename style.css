@@ -1,1 +1,44 @@
+html{
+    background-color:aqua;
+}
+
+
+picture, img {
+    height: auto;
+    max-width: 90%;
+    background-color: crimson;
+    border: auto;
+}
+
+
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+li {
+    float: none;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@media screen and (min-width:600px) {
+    li {
+        float: left;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    li {
+        width: 25%;
+        float: left;
+    }
+}
+
+
+
 
